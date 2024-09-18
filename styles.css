@@ -1,0 +1,223 @@
+body {
+    background-color: #151515;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+
+.container {
+
+    text-align: center;
+    width: 40%;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+
+.logo {
+
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+
+input[type="text"],
+
+input[type="password"] {
+
+    width: 100%;
+
+    padding: 12px 20px;
+
+    margin: 8px 0;
+
+    display: inline-block;
+
+    border: 1px solid #ccc;
+
+    box-sizing: border-box;
+
+    border-radius: 5px;
+
+    background-color: #222;
+
+    color: white;
+
+}
+
+
+button {
+
+    background-color: #fff;
+
+    color: #111;
+
+    padding: 12px 20px;
+
+    margin: 8px 0;
+
+    border: none;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    border-radius: 5px;
+
+}
+
+
+button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+.forgot {
+
+    color: #fff;
+
+    margin-bottom: 15px;
+
+    text-decoration: none;
+
+}
+
+
+.forgot:hover {
+
+    text-decoration: underline;
+
+}
+
+
+.create {
+
+    color: #fff;
+
+    text-decoration: none;
+
+}
+
+
+.create:hover {
+
+    text-decoration: underline;
+
+}
+
+.login-form {
+    text-align: left;
+}
+
+.login-form div {
+    text-align: center;
+}
+
+body {
+    background-color: #151515;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 40%;
+    min-width: 400px;
+    max-width: 600px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #222;
+    color: white;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #fff;
+    color: #111;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #222;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.results-container {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.result-item {
+    background-color: #222;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.result-item h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.result-item p {
+    margin: 5px 0;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: #fff;
+    color: #111;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}

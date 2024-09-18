@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatórios de Consumo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Relatório de Consumo Energético</h1>
+
+        <div class="results-container">
+            <div class="result-item">
+                <h3>Consumo Energético Total</h3>
+                <p><strong>Mensal:</strong> <span id="consumo-mensal">0 kWh</span></p>
+                <p><strong>Semestral:</strong> <span id="consumo-semestral">0 kWh</span></p>
+                <p><strong>Anual:</strong> <span id="consumo-anual">0 kWh</span></p>
+            </div>
+
+            <div class="result-item">
+                <h3>Quantidade de Placas Fotovoltaicas Necessárias</h3>
+                <p><strong>Placas:</strong> <span id="quantidade-placas">0</span></p>
+            </div>
+
+            <button onclick="calcularResultados()">Calcular Resultados</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
